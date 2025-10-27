@@ -1,0 +1,42 @@
+
+
+## index.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tiny Trend Visualizer</title>
+<style>
+  body { font-family: sans-serif; padding: 2rem; background: #f0f0f0; }
+  h1 { text-align: center; }
+  .trend { font-size: 1.2rem; margin: 0.5rem 0; cursor: pointer; }
+  .bar { display: inline-block; background: #1da1f2; height: 1rem; transition: all 0.3s; }
+  .trend:hover .bar { background: #0d8ddb; }
+</style>
+</head>
+<body>
+<h1>🐦 Tiny Trend Visualizer</h1>
+<div id="trends"></div>
+<script>
+  const trends = [
+    { name: "#OpenAI", volume: 80 },
+    { name: "#AIArt", volume: 50 },
+    { name: "#GitHub", volume: 70 },
+    { name: "#JavaScript", volume: 40 },
+    { name: "#Coding", volume: 90 }
+  ];
+
+  const container = document.getElementById("trends");
+  trends.forEach(t => {
+    const div = document.createElement("div");
+    div.className = "trend";
+    div.title = "Click to copy hashtag!";
+    div.innerHTML = `${t.name} <span class="bar" style="width:${t.volume * 2}px"></span> ${t.volume}k`;
+    div.onclick = () => { navigator.clipboard.writeText(t.name); alert(t.name + ' copied!'); };
+    container.appendChild(div);
+  });
+</script>
+</body>
+</html>
+```
