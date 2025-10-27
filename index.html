@@ -1,18 +1,34 @@
-
-
-## index.html
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>Tiny Trend Visualizer</title>
 <style>
-  body { font-family: sans-serif; padding: 2rem; background: #f0f0f0; }
-  h1 { text-align: center; }
-  .trend { font-size: 1.2rem; margin: 0.5rem 0; cursor: pointer; }
-  .bar { display: inline-block; background: #1da1f2; height: 1rem; transition: all 0.3s; }
-  .trend:hover .bar { background: #0d8ddb; }
+  body {
+    font-family: sans-serif;
+    padding: 2rem;
+    background: #f0f0f0;
+  }
+  h1 {
+    text-align: center;
+  }
+  .trend {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  .bar {
+    display: inline-block;
+    background: #1da1f2;
+    height: 1rem;
+    transition: all 0.3s;
+  }
+  .trend:hover .bar {
+    background: #0d8ddb;
+  }
 </style>
 </head>
 <body>
@@ -32,11 +48,29 @@
     const div = document.createElement("div");
     div.className = "trend";
     div.title = "Click to copy hashtag!";
-    div.innerHTML = `${t.name} <span class="bar" style="width:${t.volume * 2}px"></span> ${t.volume}k`;
-    div.onclick = () => { navigator.clipboard.writeText(t.name); alert(t.name + ' copied!'); };
+    
+    const nameSpan = document.createElement("span");
+    nameSpan.textContent = t.name;
+    
+    const bar = document.createElement("span");
+    bar.className = "bar";
+    bar.style.width = `${t.volume * 2}px`;
+    
+    const volumeSpan = document.createElement("span");
+    volumeSpan.textContent = `${t.volume}k`;
+    
+    div.appendChild(nameSpan);
+    div.appendChild(bar);
+    div.appendChild(volumeSpan);
+
+    div.onclick = () => {
+      navigator.clipboard.writeText(t.name)
+        .then(() => alert(`${t.name} copied!`))
+        .catch(() => prompt("Copy manually:", t.name));
+    };
+    
     container.appendChild(div);
   });
 </script>
 </body>
 </html>
-```
