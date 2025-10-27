@@ -1,23 +1,35 @@
 # 🐦 Tiny Trend Visualizer
 
-A **fun, tiny, and creative Twitter/X trend visualizer** that runs entirely in your browser. No backend, no setup—just open `index.html` and watch trending hashtags come to life with **emoji bars**!  
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Made with HTML/CSS/JS](https://img.shields.io/badge/Made%20with-HTML%2FCSS%2FJS-blue)](#)
+[![GitHub stars](https://img.shields.io/github/stars/<YOUR_USERNAME>/tiny-trend-visualizer?style=social)](https://github.com/<YOUR_USERNAME>/tiny-trend-visualizer/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/<YOUR_USERNAME>/tiny-trend-visualizer?style=social)](https://github.com/<YOUR_USERNAME>/tiny-trend-visualizer/network)
 
-https://chatgpt.com/backend-api/estuary/content?id=file_00000000a62c61f59fa45f8700dae547&ts=489326&p=fs&cid=1&sig=12cb6d2efa858e62e6f10ef4bf482c2d4e9ab5b7c236feb216c1ca5cbe500cb9&v=0
+A **fun, tiny, and creative Twitter/X trend visualizer** that runs **entirely in your browser**.  
+No backend, no setup—just open `index.html` and watch trending hashtags come alive with **emoji bars**! 🎉
+
 ---
 
 ## 🚀 Features
 
-- 🎨 **Emoji-based bars** showing trend popularity  
+- 🎨 **Emoji-based bars** representing trend popularity  
 - ✨ **Hover effects** for interactive fun  
 - 📋 **Click-to-copy** hashtags for easy sharing  
 - 💻 **Runs completely offline** in any browser  
-- 🖱 **One-file project** — super lightweight and easy to share  
+- 🖱 **One-file project** — lightweight & easy to share  
+
+---
+
+## 📸 Demo
+
+![Tiny Trend Visualizer Demo](https://your-image-link.com/demo.gif)  
+*Watch hashtags grow with fun emojis!*  
 
 ---
 
 ## 📂 How to Run
 
-1. Download or **clone** the repository:
+1. **Clone the repository**:
 
 ```bash
 git clone https://github.com/<YOUR_USERNAME>/tiny-trend-visualizer.git
