@@ -2,8 +2,7 @@
 
 A **fun, tiny, and creative Twitter/X trend visualizer** that runs entirely in your browser. No backend, no setup—just open `index.html` and watch trending hashtags come to life with **emoji bars**!  
 
-![Demo GIF](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif) <!-- Replace with your own GIF if available -->
-
+![Demo GIF](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
 ---
 
 ## 🚀 Features
