@@ -2,7 +2,7 @@
 
 A **fun, tiny, and creative Twitter/X trend visualizer** that runs entirely in your browser. No backend, no setup—just open `index.html` and watch trending hashtags come to life with **emoji bars**!  
 
-![Demo GIF](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
+https://chatgpt.com/backend-api/estuary/content?id=file_00000000a62c61f59fa45f8700dae547&ts=489326&p=fs&cid=1&sig=12cb6d2efa858e62e6f10ef4bf482c2d4e9ab5b7c236feb216c1ca5cbe500cb9&v=0
 ---
 
 ## 🚀 Features
