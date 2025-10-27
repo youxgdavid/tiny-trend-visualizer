@@ -6,10 +6,10 @@
 
 <p align="center">
   <a href="https://github.com/<YOUR_USERNAME>/tiny-trend-visualizer/stargazers">
-    <img src="https://img.shields.io/github/stars/<YOUR_USERNAME>/tiny-trend-visualizer?style=for-the-badge&logo=github" alt="GitHub Stars"/>
+    <img src="https://img.shields.io/github/stars/<YOUR_USERNAME>/tiny-trend-visualizer?style=for-the-badge&logo=github" alt="Stars"/>
   </a>
   <a href="https://github.com/<YOUR_USERNAME>/tiny-trend-visualizer/network/members">
-    <img src="https://img.shields.io/github/forks/<YOUR_USERNAME>/tiny-trend-visualizer?style=for-the-badge&logo=git" alt="GitHub Forks"/>
+    <img src="https://img.shields.io/github/forks/<YOUR_USERNAME>/tiny-trend-visualizer?style=for-the-badge&logo=git" alt="Forks"/>
   </a>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License"/>
@@ -18,29 +18,22 @@
 
 ---
 
-<p align="center">
-  <strong>Fun, tiny, and creative Twitter/X trend visualizer — runs entirely in your browser! 🎉</strong>
-</p>
-
----
-
-## ✨ Features
-
-- 🎨 **Emoji bars** show trend popularity at a glance  
-- ✨ **Hover animations** for interactive fun  
-- 📋 **Click-to-copy hashtags** for easy sharing  
-- 💻 **Offline-ready** — runs in any browser  
-- 🖱 **Single-file project** — lightweight & shareable  
-
----
-
-## 📹 Demo
+## 🎉 Features in Action
 
 <p align="center">
-  <img src="https://your-image-link.com/demo.gif" alt="Demo" width="600"/>
+  <strong>Animated Emoji Trend Bars:</strong>
 </p>
 
-*Hashtags animate and grow with fun emojis!* 🐤🔥  
+<p align="center">
+  <img src="https://your-image-link.com/emoji-bar1.gif" width="250" alt="Emoji Bar Example 1"/>
+  <img src="https://your-image-link.com/emoji-bar2.gif" width="250" alt="Emoji Bar Example 2"/>
+  <img src="https://your-image-link.com/emoji-bar3.gif" width="250" alt="Emoji Bar Example 3"/>
+</p>
+
+- 📊 Fun emoji bars visualize trend popularity  
+- ✨ Hover effects for interactivity  
+- 📋 Click-to-copy hashtags  
+- 💻 Fully offline, single-file project  
 
 ---
 
